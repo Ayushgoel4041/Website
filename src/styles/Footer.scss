@@ -1,0 +1,63 @@
+// footer
+// contact
+// icons
+// about
+// my_account
+// install
+
+.footer {
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    margin-top: 40px;
+
+    div {
+        margin: 0px 50px;
+    }
+
+    h1 {
+        font-size: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-decoration: 2px underline ;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    span {
+        color: grey;
+    }
+
+    .contact {
+        .icons {
+            margin: 0;
+            font-size: 30px;
+            display: flex;
+        }
+    }
+
+    .about {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .my_account {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .install {
+        .pay {
+            margin: 0;
+            display: flex;
+            background-color: transparent;
+
+            button {
+                padding: 10px 20px;
+            }
+        }
+
+    }
+}

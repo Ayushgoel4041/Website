@@ -1,0 +1,7 @@
+export {default as About } from './About'
+export {default as Blog } from './Blog'
+export {default as Contact } from './Contact'
+export {default as Men } from './Men'
+export {default as Women } from './Women'
+export {default as Kids } from './Kids'
+export {default as Cart } from './Cart'

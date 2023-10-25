@@ -1,0 +1,111 @@
+.shopping_cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/banner/shop.jpg');
+    width: 100%;
+    height: 40vh;
+    object-fit: fill;
+    // position: fixed;
+
+    // margin-top: 40px;
+    // background-repeat: no-repeat;
+    h2 {
+        font-size: 60px;
+
+        font-weight: bold;
+        color: white;
+    }
+}
+
+.cart {
+    position: relative;
+
+    h1 {
+        position: absolute;
+        top: -5px;
+        right: 5px;
+        z-index: 1;
+        font-size: 20px;
+        color: white;
+        // border: 2px solid black;
+        border-radius: 80%;
+        background-color: red;
+        width: 20px;
+
+    }
+}
+
+.items {
+
+    width: 60%;
+    height: 20vh;
+       li{
+        border: 1px solid white;
+        display: flex;
+        margin: 100px;
+        list-style: none;
+        border-radius: 10px;
+        background-color: cadetblue;
+        .img{
+            padding: 50px;
+            width: 30vh;
+            // height: 10vh;
+            
+        }
+        .text{
+            padding: 50px;
+            color: black;
+            font-size: 20px;
+            font-weight: 500;
+
+        }
+        
+        .quantity {
+            padding-top: 40px;
+            display: flex;
+            color: white;
+            // font-size: 30px;
+            p{
+                background-color: white;
+                color: black;
+                width: 40px;
+                height: 40px;
+                text-align: center;
+            }
+            .utton{
+                padding-left: 10px;
+
+            }
+        }
+        .rem{
+            padding-top: 20px;
+        }
+    }
+
+}
+
+
+
+
+.cart_detail {
+    display: flex;
+
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(203, 226, 226);
+    color: black;
+    width: 30%;
+    height: 20vh;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 60%;
+    // position: fixed;
+
+    button {
+        margin-top: 30px;
+    }
+}
